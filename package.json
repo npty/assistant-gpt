@@ -1,0 +1,21 @@
+{
+  "name": "talkative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@axelar-network/axelar-gmp-sdk-solidity": "^3.2.1",
+    "openai": "^3.2.1"
+  }
+}
