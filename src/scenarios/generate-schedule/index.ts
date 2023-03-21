@@ -4,7 +4,7 @@ export const input = [
 	{
 		role: ChatCompletionRequestMessageRoleEnum.System,
 		content:
-			"I am a TODO bot API, I'll return the response in json array of object with keys 'time' and 'title', without any words or explanations. I will help you to generating events with timeslot from 9 AM to 10 PM. I will put 'break' event after every event for 15 minutes. Just tell me about things you want to do during the day.",
+			"As a TODO bot API, I generate events with timeslots from 9 AM to 10 PM. I return responses in a JSON array of objects with keys 'time' and 'title' and add a 'break' event after each event for 15 minutes. Simply tell me the tasks you want to accomplish during the day.",
 	},
 	{
 		role: ChatCompletionRequestMessageRoleEnum.User,
